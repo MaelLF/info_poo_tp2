@@ -68,7 +68,7 @@ class Joueur (object): #Définition de la classe
         self.defausse.append(carte)
     
     def set_list_carte (self,packet=[]): #Méthode publique pour changer la variable liste carte, par défaut initialiser à liste vide
-        self.liste_carte = packet
+        self.list_carte = packet
 
     def get_list_carte (self): #Méthode publique pour obtenir la variable list_carte
         return self.list_carte
@@ -178,16 +178,3 @@ class Jeu (object):#Définition de la classe
                 print()
                 print()
                 print()
-
-
-                
-
-        
-
-
-        
-    
-
-
-    
-
